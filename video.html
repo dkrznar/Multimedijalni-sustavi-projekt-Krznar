@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DANIJELA KRZNAR</title>
+  </head>
+  <body class="pozadina">
+    <header>DANIJELA KRZNAR</header>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="logo.html">Inkscape</a></li>
+      <li><a href="merch.html">GIMP</a></li>
+      <li><a href="video.html">Video</a></li>
+      <li><a href="letak.html">Letak</a></li>
+      <li><a href="zvuk.html">Najava</a></li>
+    </ul>
+
+    <main class="sadrzaj">
+      <h1>Izrada videa u DaVinci Resolve</h1>
+      <p class="glavni">
+        U nastavku je prikazan video i postupak izrade u programu DaVinci
+        Resolve.
+      </p>
+      <section class="izrada">
+        <figure class="prikaz">
+          <video
+            controls
+            preload="metadata"
+            playsinline
+            webkit-playsinline
+            controlsList="nofullscreen"
+          >
+            <source src="Video/Video.mp4" type="video/mp4" />
+          </video>
+          <figcaption>
+            Mačke imaju težak zadatak. Odabrati Team Edward ili Team Jacob.
+          </figcaption>
+        </figure>
+
+        <article class="postupak">
+          <h2>Postupak izrade</h2>
+          <ol class="koraci">
+            <li>
+              Pri pokretanju programa DaVinci Resolve odabrala sam opciju New
+              Project, a zatim sam u izborniku <strong>Media</strong> odabrala
+              datoteke iz kojih sam učitavala videozapise i slike.
+            </li>
+            <li>
+              U projekt sam dodala sve videozapise mačaka, logo BoPiCa, sliku
+              Team Edward or Team Jacob te audiozapise koje sam koristila kao
+              pozadinsku glazbu.
+            </li>
+            <li>
+              Koristila sam tri audiozapisa preuzeta sa stranice
+              <strong>Freesound</strong>:
+              <a
+                href="https://freesound.org/people/josefpres/sounds/844603/"
+                target="_blank"
+                >Piano</a
+              >,
+              <a
+                href="https://freesound.org/people/adriann/sounds/191718/"
+                target="_blank"
+                >drumroll</a
+              >
+              i
+              <a
+                href="https://freesound.org/people/DJczyszy/sounds/416207/"
+                target="_blank"
+                >wind chimes</a
+              >.
+            </li>
+            <li>
+              U izborniku <strong>Edit</strong> dodala sam sav odabrani
+              materijal na vremensku liniju te sam pomoću alata
+              <strong>Selection Mode</strong> rasporedila videozapise, slike,
+              logo i audiozapise prema željenom redoslijedu.
+            </li>
+            <li>
+              U izborniku <strong>Mixer</strong> smanjila sam glasnoću
+              originalnog zvuka s videozapisa kako se ne bi čula pozadinska
+              buka.
+            </li>
+            <li>
+              Audiozapis Piano koristila sam kao glavnu pozadinsku glazbu. Zvuk
+              wind chimes dodala sam prilikom prikaza slike Edwarda i Jacoba,
+              dok sam drumroll koristila u trenutku otvaranja papirića u
+              videozapisima mačaka. Svi dodatni audiozapisi postavljeni su na
+              Audio Track 2.
+            </li>
+            <li>
+              Nakon završetka uređivanja, u izborniku
+              <strong>Deliver</strong> promijenila sam format izvoza u
+              <strong>.mp4</strong>, kako bi video bio prikladan za objavu na
+              web stranici. Na kraju sam kliknula
+              <strong>Add to Render Queue</strong>, a zatim
+              <strong>Render</strong>, čime je video uspješno exportiran.
+            </li>
+          </ol>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <span>© 2026 Danijela Krznar — projekt za Multimedijalne sustave</span>
+      </p>
+    </footer>
+  </body>
+</html>

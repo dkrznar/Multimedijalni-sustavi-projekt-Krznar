@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DANIJELA KRZNAR</title>
+  </head>
+  <body class="pozadina">
+    <header>DANIJELA KRZNAR</header>
+    <ul>
+      <li><a href="index.html">Početna</a></li>
+      <li><a href="logo.html">Inkscape</a></li>
+      <li><a href="merch.html">GIMP</a></li>
+      <li><a href="video.html">Video</a></li>
+      <li><a href="letak.html">Letak</a></li>
+      <li><a href="zvuk.html">Najava</a></li>
+    </ul>
+
+    <main class="sadrzaj">
+      <h1>Izrada audio zapisa u Audacity-u</h1>
+      <p class="glavni">
+        U nastavku se nalazi audio zapis i postupak izrade u programu Audacity.
+      </p>
+      <section class="izrada">
+        <figure class="prikaz">
+          <audio controls preload="metadata">
+            <source src="Zvuk/Najava.wav" type="audio/wav" />
+          </audio>
+          <figcaption>Radio najava za sklonište BoPiCa.</figcaption>
+        </figure>
+
+        <article class="postupak">
+          <h2>Postupak izrade</h2>
+          <ol class="koraci">
+            <li>
+              Za izradu audiozapisa koristila sam program Audacity. Nakon
+              pokretanja programa prvo sam snimila audiozapis najave pomoću
+              alata <strong>Record</strong>.
+            </li>
+            <li>
+              Nakon toga sam s YouTube Audio zbirke preuzela pozadinsku glazbu
+              (Ruff Money – The Grey Room / Clark Sims).
+            </li>
+            <li>
+              Pozadinsku pjesmu sam označila te sam pomoću opcije
+              <strong>Effect → Volume and Compression → Auto Duck</strong>
+              podesila da se glazba automatski stiša kada započne govor, a nakon
+              završetka govora ponovno pojača, slično principu radijske emisije.
+            </li>
+            <li>
+              Dodatno sam u izborniku <strong>Effect</strong> primijenila efekte
+              <strong>Fade In</strong> i <strong>Fade Out</strong> kako bi
+              prijelazi na početku i kraju pjesme bili postupniji i ugodniji za
+              slušanje.
+            </li>
+            <li>
+              Nakon što sam bila zadovoljna konačnim audiozapisom, pomoću opcije
+              <strong>File → Export Audio</strong> spremila sam datoteku u
+              <strong>.wav</strong> formatu, kako bi bila prikladna za
+              korištenje na web stranici.
+            </li>
+          </ol>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <span>© 2026 Danijela Krznar — projekt za Multimedijalne sustave</span>
+      </p>
+    </footer>
+  </body>
+</html>
