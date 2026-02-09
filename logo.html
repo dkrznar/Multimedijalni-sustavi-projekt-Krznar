@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DANIJELA KRZNAR</title>
+  </head>
+  <body class="pozadina">
+    <header>DANIJELA KRZNAR</header>
+    <ul>
+      <li><a href="index.html">BoPiCa</a></li>
+      <li><a href="logo.html">Inkscape</a></li>
+      <li><a href="merch.html">GIMP</a></li>
+      <li><a href="video.html">Video</a></li>
+      <li><a href="letak.html">Letak</a></li>
+    </ul>
+
+    <main class="sadrzaj">
+      <h1>Izrada logotipa u Inkscape-u</h1>
+      <p class="glavni">
+        U nastavku je prikazan logotip i postupak izrade u programu Inkscape.
+      </p>
+      <section class="izrada">
+        <figure class="prikaz">
+          <img src="Slike/BOPICA.png" alt="Logo skloništa BoPiCa" />
+          <figcaption>Logotip skloništa "BoPiCa"</figcaption>
+        </figure>
+
+        <article class="postupak">
+          <h2>Postupak izrade</h2>
+          <ol class="koraci">
+            <li>
+              Kao polazište za izradu logotipa koristila sam javno dostupan
+              vektor
+              <a
+                href="https://freesvg.org/house-or-home-vector-icon"
+                target="_blank"
+                >kuće</a
+              >
+              preuzet sa stranice FREE SVG. Vektor kuće dodala sam u novi
+              dokument opcijom <strong>File → Import</strong>.
+            </li>
+            <li>
+              Budući da je kuća bila sastavljena od više zasebnih elemenata,
+              najprije sam odabrala sloj na kojem je bio element koji je
+              predstavljao dimnjak te ga uklonila tipkom
+              <strong>Delete</strong>.
+            </li>
+            <li>
+              Također, budući da je preuzeti vektor imao vrata, a smatrala sam
+              da je za pozadinu iza teksta vizualno primjereniji prikaz kuće bez
+              vrata, pomoću alata <strong>Rectangle Tool</strong> crnim
+              pravokutnikom prekrila sam dio koji predstavlja vrata.
+            </li>
+            <li>
+              Držeći tipku <strong>Shift</strong>, odabrala sam novokreirani
+              pravokutnik, element koji predstavlja kuću i element koji
+              predstavlja krov te sam ih opcijom
+              <strong>Path → Union</strong> ujedinila u jedan sloj koji sam radi
+              lakšeg snalaženja preimenovala u <i>“Kuća”</i>.
+            </li>
+            <li>
+              U sljedećem koraku, dodala sam tekst “BoPiCa” koristeći
+              <strong>Text Tool</strong>. Odabrala sam željenu veličinu fonta,
+              nakon čega sam u panelu <strong>Fill and Stroke</strong> s desne
+              strane ekrana odabrala boju teksta - Fill, boju obruba - Stroke
+              paint te željenu debljinu obruba (1.565 mm) i izgled obruba (Join:
+              Round join; Cap: Round cap; Order: Stroke, Fill, Markers) - Stroke
+              style.
+            </li>
+            <li>
+              Pomoću alata <strong>Pen Tool</strong> napravila sam zaobljenu
+              liniju te sam označavanjem sloja teksta i sloja linije koristila
+              opciju <strong>Text → Put on Path</strong> kako bih zaoblila tekst
+              prema liniji. Koristeći <strong>Selector Tool</strong> pomaknula
+              sam tekst na željeno mjesto na logotipu.
+            </li>
+            <li>
+              Osim teksta “BoPiCa” opcijom za dodavanje teksta dodala sam tekst
+              “SKLONIŠTE”. Sloj teksta “SKLONIŠTE” i sloj kuće spojila sam u
+              jedno opcijom <strong>Path → Difference</strong>.
+            </li>
+            <li>
+              Završna faza izrade logotipa obuhvaćala je dodavanje elementa
+              šapice iznad teksta. Vektor
+              <a href="https://www.svgrepo.com/svg/327457/paw" target="_blank"
+                >šapice</a
+              >
+              preuzela sam sa stranice SVG Repo te sam ga, kao i vektor kuće,
+              dodala opcijom <strong>File → Import</strong>.
+            </li>
+            <li>
+              Vektor šapice sastojao se od više elemenata pa sam sve elemente,
+              radi jednostavnije manipulacije slojem, označila držeći tipku
+              <strong>Shift</strong> te ih objedinila u jedan sloj pomoću opcije
+              <strong>Path → Union</strong>.
+            </li>
+            <li>
+              Boju šapice promijenila sam u željenu boju na panelu
+              <strong>Fill and Stroke → Fill</strong>. Korištenjem alata
+              <strong>Ellipse/Arc Tool</strong>, šapicu sam prekrila krugom na
+              koji sam primijenila crno-bijeli Radial gradient.
+            </li>
+            <li>
+              Taj efekt primijenila sam na šapicu korištenjem maske. Najprije
+              sam označila sloj šapice, zatim sloj kruga te koristila opciju
+              <strong>Object → Mask → Set Mask</strong>. Koristeći<strong
+                >Selector Tool</strong
+              >, šapicu sam pozicionirala na željeno mjesto.
+            </li>
+            <li>
+              Gotov logotip izvezla sam u <strong>.png</strong> formatu putem
+              opcije <strong>File → Export</strong>.
+            </li>
+          </ol>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        <span>© 2026 Danijela Krznar — projekt za Multimedijalne sustave</span>
+      </p>
+    </footer>
+  </body>
+</html>
