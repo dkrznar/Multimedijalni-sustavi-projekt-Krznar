@@ -1,3 +1,3 @@
 # danijela-krznar
 Projekt za predmet Multimedijalni sustavi
-web: https://dkrznar.github.io/danijela-krznar/index.html
+web: https://dkrznar.github.io/Multimedijalni-sustavi-projekt-Krznar/
